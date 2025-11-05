@@ -1,2 +1,5 @@
-if __name__ == "__main__":
-    pass
+s = input()
+if len(s) % 4 == 0:
+    print(s[::-1])
+else:
+    ptint(s)
