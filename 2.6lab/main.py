@@ -14,9 +14,11 @@ def num_div(a1, b1, a2, b2):
     y = (b1 * a2 - a1 * b2) / z
     return x, y
 
-m = abs(3, 4)
+m = num_abs(3, 4)
 print(m)
-x1, y1 = mult(3, 4, 1, -2)
+
+x1, y1 = num_mult(3, 4, 1, -2)
 print(x1, "+", y1, "i")
-x2, y2 = div(3, 4, 1, -2)
+
+x2, y2 = num_div(3, 4, 1, -2)
 print(x2, "+", y2, "i")
